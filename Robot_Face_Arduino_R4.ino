@@ -22,7 +22,7 @@
 #define TFT_CLK 13  // SCK
 */
 
- */
+  
 // ── GFX objects ────────────────────────────────────────────────────────────
 Arduino_DataBus *bus = new Arduino_HWSPI(TFT_DC, TFT_CS);
 Arduino_GFX     *tft = new Arduino_ILI9225(bus, TFT_RST);
